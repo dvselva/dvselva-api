@@ -1,0 +1,14 @@
+{
+  "name": "dvselva-api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "contentful": "^9.1.28",
+    "contentful-management": "^10.3.1"
+  },
+  "devDependencies": {}
+}
