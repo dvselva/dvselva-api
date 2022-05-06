@@ -17,7 +17,7 @@ module.exports = async function (context, req) {
 
     
     const cmaClient = contentfulManagement.createClient({
-        accessToken:  'CFPAT-S5TFiDwbI88Uj-0XSckV8Urhi09tyuN2DHf9aJ92Um0'
+        accessToken: process.env["CMAPI_KEY"]
     });
 
     cmaClient.getSpace('9gf6mhyw2bkx')
